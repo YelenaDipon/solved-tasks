@@ -1,2 +1,3 @@
 # solved-tasks
-CodeWars
+* task 1
+
