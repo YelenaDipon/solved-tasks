@@ -12,5 +12,11 @@ function iceBrickVolume(radius, bottleLength, rimLength) {
   return (rimWidth * (radius * 2)) * radius;
 }
 ```
+* Task#3 - Sum of angles 7 KUY
+```javascript
+function angle(n) {
+  return (n - 2) * 180;
+}
+```
 
 
