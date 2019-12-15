@@ -24,5 +24,11 @@ function sumStr(a,b) {
   return (+a+ +b)+''  
 }
 ```
+* Task#5 - Convert a Boolean to a String 8 KUY
+```javascript
+function booleanToString(b){
+    return (b === true) ? "true" : "false";
+}
+```
 
 
