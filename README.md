@@ -18,5 +18,11 @@ function angle(n) {
   return (n - 2) * 180;
 }
 ```
+* Tast#4 - Sum The Strings 8 KUY 
+```javascript
+function sumStr(a,b) {
+  return (+a+ +b)+''  
+}
+```
 
 
