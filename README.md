@@ -30,5 +30,10 @@ function booleanToString(b){
     return (b === true) ? "true" : "false";
 }
 ```
-
+* Task#6 - Super Duper Easy 8 KUY 
+```javascript
+function problem(x){
+  return typeof x == 'string' ? 'Error' : (x * 50 + 6);
+}
+```
 
