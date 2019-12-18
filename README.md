@@ -57,4 +57,12 @@ function squareArea(A){
   return Math.round(area*100)/100
 }
 ```
+* Task#9 - Calculate Two People's Individual Ages 7 KUY
+```javascript
+function getAges(sum,difference){
+  let age = sum-difference;
+  return (age < 0 || difference < 0) ? null : [age / 2 + difference,age / 2]
+}
+```
+
 
