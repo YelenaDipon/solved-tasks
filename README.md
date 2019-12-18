@@ -42,4 +42,19 @@ function apple(x) {
   return x ** 2 > 1000 ? 'It\'s hotter than the sun!!' : 'Help yourself to a honeycomb Yorkie for the glovebox.';
 }
 ```
+* Task#8 - Area of a Square 8 KUY
+```javascript
+function squareArea(A){
+  return +((A * 2 / Math.PI)**2).toFixed(2);
+}
+```
+or
+```javascript
+function squareArea(A){
+  var circum = 4 * A;
+  var radius = circum / (2 * Math.PI);
+  var area = Math.pow(radius, 2);
+  return Math.round(area*100)/100
+}
+```
 
