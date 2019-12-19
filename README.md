@@ -62,7 +62,12 @@ function squareArea(A){
 function getAges(sum,difference){
   let age = sum-difference;
   return (age < 0 || difference < 0) ? null : [age / 2 + difference,age / 2]
+}   
+```
+* Task#10 - Is n divisible by x and y?
+```javascript
+function isDivisible(n, x, y) {
+  return !(n % x || n % y)
 }
 ```
-
 
