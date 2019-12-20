@@ -70,4 +70,10 @@ function isDivisible(n, x, y) {
   return !(n % x || n % y)
 }
 ```
+* Task#11 - Chuck Norris VII - True or False? 8 KUY
+```javascript
+function ifChuckSaysSo(){
+  return 0 > 1;
+}
+```
 
