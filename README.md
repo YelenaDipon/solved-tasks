@@ -88,3 +88,17 @@ function setAlarm(employed, vacation){
   return employed > vacation
 }
 ```
+* Task#14 - Rock Paper Scissors! 8 KUY
+```javascript
+const rps = (p1, p2) => {
+let message1 = "Player 1 won!"; let message2 = "Player 2 won!";
+if(p1 == "scissors" && p2 == "paper"){
+return message1;}
+else if(p1 == "rock" && p2 == "scissors"){
+return message1;}
+else if(p1 == "paper" && p2 =="rock"){
+return message1;}
+else if(p1 == p2){return "Draw!"}
+else {return message2}
+};
+```
