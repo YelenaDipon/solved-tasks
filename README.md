@@ -76,4 +76,9 @@ function ifChuckSaysSo(){
   return 0 > 1;
 }
 ```
-
+* Task#12  - Can we divide it? 8 KUY
+```javascript
+function isDivideBy(number, a, b) {
+  return !(number % a || number % b);
+}
+```
