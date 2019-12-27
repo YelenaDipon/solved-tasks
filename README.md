@@ -82,3 +82,9 @@ function isDivideBy(number, a, b) {
   return !(number % a || number % b);
 }
 ```
+* Task#13  - L1: Set Alarm
+```javascript
+function setAlarm(employed, vacation){
+  return employed > vacation
+}
+```
