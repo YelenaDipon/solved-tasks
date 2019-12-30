@@ -24,25 +24,25 @@ function sumStr(a,b) {
   return (+a+ +b)+''  
 }
 ```
-* Task#5 - Convert a Boolean to a String 8 KUY
+#####* Task#5 - Convert a Boolean to a String 8 KUY
 ```javascript
 function booleanToString(b){
     return (b === true) ? "true" : "false";
 }
 ```
-* Task#6 - Super Duper Easy 8 KUY 
+#####* Task#6 - Super Duper Easy 8 KUY 
 ```javascript
 function problem(x){
   return typeof x == 'string' ? 'Error' : (x * 50 + 6);
 }
 ```
-* Task#7 - Alan Partridge II - Apple Turnover 8 KUY
+#####* Task#7 - Alan Partridge II - Apple Turnover 8 KUY
 ```javascript
 function apple(x) {
   return x ** 2 > 1000 ? 'It\'s hotter than the sun!!' : 'Help yourself to a honeycomb Yorkie for the glovebox.';
 }
 ```
-* Task#8 - Area of a Square 8 KUY
+#####* Task#8 - Area of a Square 8 KUY
 ```javascript
 function squareArea(A){
   return +((A * 2 / Math.PI)**2).toFixed(2);
@@ -57,38 +57,38 @@ function squareArea(A){
   return Math.round(area*100)/100
 }
 ```
-* Task#9 - Calculate Two People's Individual Ages 7 KUY
+#####* Task#9 - Calculate Two People's Individual Ages 7 KUY
 ```javascript
 function getAges(sum,difference){
   let age = sum-difference;
   return (age < 0 || difference < 0) ? null : [age / 2 + difference,age / 2]
 }   
 ```
-* Task#10 - Is n divisible by x and y?
+#####* Task#10 - Is n divisible by x and y?
 ```javascript
 function isDivisible(n, x, y) {
   return !(n % x || n % y)
 }
 ```
-* Task#11 - Chuck Norris VII - True or False? 8 KUY
+#####* Task#11 - Chuck Norris VII - True or False? 8 KUY
 ```javascript
 function ifChuckSaysSo(){
   return 0 > 1;
 }
 ```
-* Task#12  - Can we divide it? 8 KUY
+#####* Task#12  - Can we divide it? 8 KUY
 ```javascript
 function isDivideBy(number, a, b) {
   return !(number % a || number % b);
 }
 ```
-* Task#13  - L1: Set Alarm
+#####* Task#13  - L1: Set Alarm
 ```javascript
 function setAlarm(employed, vacation){
   return employed > vacation
 }
 ```
-* Task#14 - Rock Paper Scissors! 8 KUY
+#####* Task#14 - Rock Paper Scissors! 8 KUY
 ```javascript
 const rps = (p1, p2) => {
 let message1 = "Player 1 won!"; let message2 = "Player 2 won!";
@@ -102,7 +102,7 @@ else if(p1 == p2){return "Draw!"}
 else {return message2}
 };
 ```
-* Task#15 -  Is this a triangle? 7 KUY
+#####* Task#15 -  Is this a triangle? 7 KUY
 ```javascript
 function isTriangle(a, b, c)
 {  
