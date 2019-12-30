@@ -1,24 +1,24 @@
 # solved-tasks
-* Task#1 - Breaking chocolate problem 7 KUY 
+#####* Task#1 - Breaking chocolate problem 7 KUY 
 ```javascript
 function breakChocolate(n,m) {
   return (m && n) ? n * m -1 : 0;
 }
 ```
-* Task#2 -  For Twins: 2. Math operations 8 KUY
+#####* Task#2 -  For Twins: 2. Math operations 8 KUY
 ```javascript
 function iceBrickVolume(radius, bottleLength, rimLength) {
   const rimWidth = bottleLength - rimLength;
   return (rimWidth * (radius * 2)) * radius;
 }
 ```
-* Task#3 - Sum of angles 7 KUY
+#####* Task#3 - Sum of angles 7 KUY
 ```javascript
 function angle(n) {
   return (n - 2) * 180;
 }
 ```
-* Task#4 - Sum The Strings 8 KUY 
+#####* Task#4 - Sum The Strings 8 KUY 
 ```javascript
 function sumStr(a,b) {
   return (+a+ +b)+''  
@@ -101,4 +101,11 @@ return message1;}
 else if(p1 == p2){return "Draw!"}
 else {return message2}
 };
+```
+* Task#15 -  Is this a triangle? 7 KUY
+```javascript
+function isTriangle(a, b, c)
+{  
+   return (a < b + c) && (b < a + c) && (c < a + b);
+}
 ```
