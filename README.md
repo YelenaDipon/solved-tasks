@@ -115,3 +115,12 @@ function saleHotdogs(n){
   return (n < 5) ? n * 100 :( n >= 5 && n < 10 ? n * 95 : n * 90);
 }
 ```
+#####*Task#17 - Factorial 7 KUY
+```javascript
+function factorial(n){
+let result =1;
+  for (let i=1;i<=n;i++)
+  result = result*i;
+  return result
+}
+```
