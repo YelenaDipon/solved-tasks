@@ -157,3 +157,13 @@ function getPlanetName(id){
   return name;
 }
 ```
+#####*Task#19 - Power of two 7 KUY
+```javascript
+function isPowerOfTwo(n){
+  if(n == 1)
+    return true
+  if(n < 1)
+    return false
+ return isPowerOfTwo(n / 2)
+}
+```
