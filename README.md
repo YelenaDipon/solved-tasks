@@ -161,9 +161,9 @@ function getPlanetName(id){
 ```javascript
 function isPowerOfTwo(n){
   if(n == 1)
-    return true
+    return true;
   if(n < 1)
-    return false
+    return false;
  return isPowerOfTwo(n / 2)
 }
 ```
@@ -211,5 +211,17 @@ function SeriesSum(n)
    result += (1 / i);
   }
   return result.toFixed(2);
+}
+```
+#####*Task#24 Power 8 KUY
+```javascript
+function numberToPower(number, power){
+let i = 1; 
+let count = 0;
+ do{
+   i *= number;
+    count++;
+ } while(count < power);
+   return (power === 0) ? 1 : i;
 }
 ```
