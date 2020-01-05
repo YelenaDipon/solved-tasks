@@ -202,3 +202,14 @@ function getSum( a,b )
     return result;
 }
 ```
+#####*Task#23 Sum of the first nth term of Series 7 KUY
+```javascript
+function SeriesSum(n)
+{
+  let result = 0;
+  for(let i = 1; i <= (n * 3) ; i = i + 3){
+   result += (1 / i);
+  }
+  return result.toFixed(2);
+}
+```
