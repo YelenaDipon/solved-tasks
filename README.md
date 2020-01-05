@@ -167,3 +167,17 @@ function isPowerOfTwo(n){
  return isPowerOfTwo(n / 2)
 }
 ```
+#####*Task#20 Difference Of Squares 7 KUY
+```javascript
+function differenceOfSquares(n){
+  let i = 1;
+  let sumSqr = 0;
+  let sumNum = 0; 
+    while(i <= n){
+    sumSqr+=Math.pow(i,2);
+      sumNum+=i;
+    i++;
+    }
+  return Math.pow(sumNum,2) - sumSqr;
+}
+```
