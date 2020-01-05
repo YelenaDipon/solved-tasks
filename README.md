@@ -181,3 +181,11 @@ function differenceOfSquares(n){
   return Math.pow(sumNum,2) - sumSqr;
 }
 ```
+#####*Task#21 No zeros for heros 8 KUY 
+```javascript
+function noBoringZeros(n){
+let str = n.toString();
+  while(str[str.length-1] == 0)str = +str / 10 + '';
+return +str;
+}
+```
