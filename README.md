@@ -189,3 +189,16 @@ let str = n.toString();
 return +str;
 }
 ```
+#####*Task#22 Beginner Series #3 Sum of Numbers 7 KUY
+```javascript
+function getSum( a,b )
+{
+  let result = 0;
+  let num1 = Math.min(a,b);
+  let num2 = Math.max(a,b);
+  for(let i = num1; i <= num2; i++){
+    result += i;
+  }
+    return result;
+}
+```
