@@ -243,3 +243,9 @@ let result = [];
                return result;
 }
 ```
+#####*Task#26 You're a square! 7 KUY
+```javascript
+var isSquare = function(n){
+  return Number.isInteger(Math.sqrt(n));
+}
+```
