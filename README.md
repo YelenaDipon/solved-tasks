@@ -234,3 +234,12 @@ for (let i = 1; i <= 10; i++) {
   console.log('--------------');  
 }
 ```
+#####*Task#24 To square(root) or not to square(root) 8 KUY
+```javascript
+function squareOrSquareRoot(array) {
+let result = [];
+ array.forEach(el =>  Number.isInteger(Math.sqrt(el)) ?
+ result.push(Math.sqrt(el)) : result.push(Math.pow(el,2)));
+               return result;
+}
+```
