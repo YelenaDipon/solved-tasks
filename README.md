@@ -249,3 +249,11 @@ var isSquare = function(n){
   return Number.isInteger(Math.sqrt(n));
 }
 ```
+##### * Task# 27 All Star Code Challenge #22 7 KUY
+```javascript
+function toTime(seconds) {
+  let hours = Math.floor(seconds / 3600);
+  let minutes = Math.floor((seconds - hours * 3600) / 60);
+return `${hours} hour(s) and ${minutes} minute(s)`
+}
+```
