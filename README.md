@@ -1,48 +1,48 @@
 # solved-tasks
-#####* Task#1 - Breaking chocolate problem 7 KUY 
+##### * Task# 1 - Breaking chocolate problem 7 KUY 
 ```javascript
 function breakChocolate(n,m) {
   return (m && n) ? n * m -1 : 0;
 }
 ```
-#####* Task#2 -  For Twins: 2. Math operations 8 KUY
+##### * Task# 2 -  For Twins: 2. Math operations 8 KUY
 ```javascript
 function iceBrickVolume(radius, bottleLength, rimLength) {
   const rimWidth = bottleLength - rimLength;
   return (rimWidth * (radius * 2)) * radius;
 }
 ```
-#####* Task#3 - Sum of angles 7 KUY
+##### * Task# 3 - Sum of angles 7 KUY
 ```javascript
 function angle(n) {
   return (n - 2) * 180;
 }
 ```
-#####* Task#4 - Sum The Strings 8 KUY 
+##### * Task# 4 - Sum The Strings 8 KUY 
 ```javascript
 function sumStr(a,b) {
   return (+a+ +b)+''  
 }
 ```
-#####* Task#5 - Convert a Boolean to a String 8 KUY
+##### * Task# 5 - Convert a Boolean to a String 8 KUY
 ```javascript
 function booleanToString(b){
     return (b === true) ? "true" : "false";
 }
 ```
-#####* Task#6 - Super Duper Easy 8 KUY 
+##### * Task# 6 - Super Duper Easy 8 KUY 
 ```javascript
 function problem(x){
   return typeof x == 'string' ? 'Error' : (x * 50 + 6);
 }
 ```
-#####* Task#7 - Alan Partridge II - Apple Turnover 8 KUY
+##### * Task# 7 - Alan Partridge II - Apple Turnover 8 KUY
 ```javascript
 function apple(x) {
   return x ** 2 > 1000 ? 'It\'s hotter than the sun!!' : 'Help yourself to a honeycomb Yorkie for the glovebox.';
 }
 ```
-#####* Task#8 - Area of a Square 8 KUY
+##### * Task# 8 - Area of a Square 8 KUY
 ```javascript
 function squareArea(A){
   return +((A * 2 / Math.PI)**2).toFixed(2);
@@ -57,38 +57,38 @@ function squareArea(A){
   return Math.round(area*100)/100
 }
 ```
-#####* Task#9 - Calculate Two People's Individual Ages 7 KUY
+##### * Task# 9 - Calculate Two People's Individual Ages 7 KUY
 ```javascript
 function getAges(sum,difference){
   let age = sum-difference;
   return (age < 0 || difference < 0) ? null : [age / 2 + difference,age / 2]
 }   
 ```
-#####* Task#10 - Is n divisible by x and y?
+##### * Task# 10 - Is n divisible by x and y?
 ```javascript
 function isDivisible(n, x, y) {
   return !(n % x || n % y)
 }
 ```
-#####* Task#11 - Chuck Norris VII - True or False? 8 KUY
+##### * Task# 11 - Chuck Norris VII - True or False? 8 KUY
 ```javascript
 function ifChuckSaysSo(){
   return 0 > 1;
 }
 ```
-#####* Task#12  - Can we divide it? 8 KUY
+##### * Task# 12  - Can we divide it? 8 KUY
 ```javascript
 function isDivideBy(number, a, b) {
   return !(number % a || number % b);
 }
 ```
-#####* Task#13  - L1: Set Alarm
+##### * Task# 13  - L1: Set Alarm
 ```javascript
 function setAlarm(employed, vacation){
   return employed > vacation
 }
 ```
-#####* Task#14 - Rock Paper Scissors! 8 KUY
+##### * Task# 14 - Rock Paper Scissors! 8 KUY
 ```javascript
 const rps = (p1, p2) => {
 let message1 = "Player 1 won!"; let message2 = "Player 2 won!";
@@ -102,20 +102,20 @@ else if(p1 == p2){return "Draw!"}
 else {return message2}
 };
 ```
-#####* Task#15 -  Is this a triangle? 7 KUY
+##### * Task# 15 -  Is this a triangle? 7 KUY
 ```javascript
 function isTriangle(a, b, c)
 {  
    return (a < b + c) && (b < a + c) && (c < a + b);
 }
 ```
-#####* Task#16 -  Training JS #7: if..else and ternary operator 8 KUY
+##### * Task# 16 -  Training JS #7: if..else and ternary operator 8 KUY
 ```javascript
 function saleHotdogs(n){
   return (n < 5) ? n * 100 :( n >= 5 && n < 10 ? n * 95 : n * 90);
 }
 ```
-#####*Task#17 - Factorial 7 KUY
+##### * Task# 17 - Factorial 7 KUY
 ```javascript
 function factorial(n){
 let result =1;
@@ -124,7 +124,7 @@ let result =1;
   return result
 }
 ```
-#####*Task#18 - Get Planet Name By ID 8 KUY
+##### * Task# 18 - Get Planet Name By ID 8 KUY
 ```javascript
 function getPlanetName(id){
   var name;
@@ -157,7 +157,7 @@ function getPlanetName(id){
   return name;
 }
 ```
-#####*Task#19 - Power of two 7 KUY
+##### * Task# 19 - Power of two 7 KUY
 ```javascript
 function isPowerOfTwo(n){
   if(n == 1)
@@ -167,7 +167,7 @@ function isPowerOfTwo(n){
  return isPowerOfTwo(n / 2)
 }
 ```
-#####*Task#20 Difference Of Squares 7 KUY
+##### * Task# 20 Difference Of Squares 7 KUY
 ```javascript
 function differenceOfSquares(n){
   let i = 1;
@@ -181,7 +181,7 @@ function differenceOfSquares(n){
   return Math.pow(sumNum,2) - sumSqr;
 }
 ```
-#####*Task#21 No zeros for heros 8 KUY 
+##### * Task# 21 No zeros for heros 8 KUY 
 ```javascript
 function noBoringZeros(n){
 let str = n.toString();
@@ -189,7 +189,7 @@ let str = n.toString();
 return +str;
 }
 ```
-#####*Task#22 Beginner Series #3 Sum of Numbers 7 KUY
+##### * Task# 22 Beginner Series #3 Sum of Numbers 7 KUY
 ```javascript
 function getSum( a,b )
 {
@@ -202,7 +202,7 @@ function getSum( a,b )
     return result;
 }
 ```
-#####*Task#23 Sum of the first nth term of Series 7 KUY
+##### * Task# 23 Sum of the first nth term of Series 7 KUY
 ```javascript
 function SeriesSum(n)
 {
@@ -213,7 +213,7 @@ function SeriesSum(n)
   return result.toFixed(2);
 }
 ```
-#####*Task#24 Power 8 KUY
+##### * Task# 24 Power 8 KUY
 ```javascript
 function numberToPower(number, power){
 let i = 1; 
@@ -234,7 +234,7 @@ for (let i = 1; i <= 10; i++) {
   console.log('--------------');  
 }
 ```
-#####*Task#25 To square(root) or not to square(root) 8 KUY
+##### * Task# 25 To square(root) or not to square(root) 8 KUY
 ```javascript
 function squareOrSquareRoot(array) {
 let result = [];
@@ -243,7 +243,7 @@ let result = [];
                return result;
 }
 ```
-#####*Task#26 You're a square! 7 KUY
+##### * Task# 26 You're a square! 7 KUY
 ```javascript
 var isSquare = function(n){
   return Number.isInteger(Math.sqrt(n));
