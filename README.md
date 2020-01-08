@@ -257,3 +257,12 @@ function toTime(seconds) {
 return `${hours} hour(s) and ${minutes} minute(s)`
 }
 ```
+
+##### *Task# 28 Expressions Matter 8 KUY
+```javascript
+function expressionMatter(a, b, c) {
+let frst = a * (b + c); let secnd = a * b * c; let trd = a + b * c;  
+ let frt = (a + b) * c; let ffth = a + b + c;
+return Math.max(...[frst,secnd,trd,frt,ffth]);
+}
+```
