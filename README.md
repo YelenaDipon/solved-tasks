@@ -266,3 +266,16 @@ let frst = a * (b + c); let secnd = a * b * c; let trd = a + b * c;
 return Math.max(...[frst,secnd,trd,frt,ffth]);
 }
 ```
+
+##### *Task# 29 Tortoise racing 6 KUY
+```javascript
+function race(v1, v2, g) {
+  if (v1 >= v2) return null;
+    let t = g / (v2 - v1); 
+    let time = t * 3600;
+    let hour = Math.trunc(time / 3600);
+    let minute = Math.trunc((time - hour * 3600) / 60); // minutes
+    let seconds = Math.trunc(time - hour * 3600 - minute * 60);
+    return [hour, minute, seconds]
+}
+```
