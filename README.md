@@ -279,7 +279,17 @@ function race(v1, v2, g) {
     return [hour, minute, seconds]
 }
 ```
+
 *Task# 30 Formatting decimal places #1 7 KUY
+```javascript
 function twoDecimalPlaces(number) {
   return Math.trunc(number * 100) / 100;
 }
+```
+
+*Task# 31 Calculate Price Excluding VAT 8 KUY
+```javascript
+function excludingVatPrice(price){
+  return (price === null) ? -1 : +(price / ((.115 * 10))).toFixed(2);
+}
+```
