@@ -279,3 +279,7 @@ function race(v1, v2, g) {
     return [hour, minute, seconds]
 }
 ```
+*Task# 30 Formatting decimal places #1 7 KUY
+function twoDecimalPlaces(number) {
+  return Math.trunc(number * 100) / 100;
+}
