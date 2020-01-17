@@ -293,3 +293,11 @@ function excludingVatPrice(price){
   return (price === null) ? -1 : +(price / ((.115 * 10))).toFixed(2);
 }
 ```
+* Task# 32 Total amount of points 8 KUY
+```javascript
+function points(games) {
+  let sum = 0;
+  games.forEach((el) => (el[0] > el[2]) ? sum += 3 : (el[0] === el[2]) ? sum += 1 : 0);
+return sum;
+}
+```
