@@ -301,3 +301,11 @@ function points(games) {
 return sum;
 }
 ```
+* Task# 33 How good are you really? 8 KUY
+```javascript
+function betterThanAverage(classPoints, yourPoints) {
+  let classPointsTotal = 0;
+  classPoints.reduce((a,b)=> classPointsTotal = a + b);
+  return yourPoints > (classPointsTotal / classPoints.length);
+}
+```
