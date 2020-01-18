@@ -318,3 +318,11 @@ function oddOrEven(array) {
   return (sum % 2 === 1 || sum % 2 === -1) ? 'odd': 'even'
   }
 ```
+* Task# 35 Divide and Conquer 7 KUY
+```javascript
+function divCon(x){
+let stringSum = 0; let numberSum = 0;
+  x.map((el)=> (typeof el === 'string') ? stringSum += +el : numberSum += el);
+  return numberSum - stringSum;
+}
+```
