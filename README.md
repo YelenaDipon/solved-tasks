@@ -309,3 +309,12 @@ function betterThanAverage(classPoints, yourPoints) {
   return yourPoints > (classPointsTotal / classPoints.length);
 }
 ```
+* Task# 34 Odd or Even? 7 KUY
+```javascript
+function oddOrEven(array) {
+   array.push(0);
+  let sum = 0; 
+  (array.length === 0) ? 0 : array.push(0),array.reduce((a,b)=> sum = (a + b));
+  return (sum % 2 === 1 || sum % 2 === -1) ? 'odd': 'even'
+  }
+```
