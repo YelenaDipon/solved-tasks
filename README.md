@@ -326,3 +326,15 @@ let stringSum = 0; let numberSum = 0;
   return numberSum - stringSum;
 }
 ```
+* Task# 36 Remove the minimum 7 KUY
+```javascript
+function removeSmallest(numbers) {
+let sum = [];
+  let min = numbers.indexOf(Math.min(...numbers))
+for (let i = 0; i < numbers.length; i++){
+       sum.push(numbers[i]);  
+}
+  sum.splice(min,1)
+return sum;
+}
+```
