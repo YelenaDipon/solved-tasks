@@ -338,3 +338,15 @@ for (let i = 0; i < numbers.length; i++){
 return sum;
 }
 ```
+* Task# 37 Find Maximum and Minimum Values of a List 8 KUY
+```javascript
+let min = function(list){
+    return Math.min(...list)
+}
+
+let max = function(list){
+    
+    return Math.max(...list)
+}
+```
+
