@@ -368,3 +368,13 @@ result.push(i);
 return result;
 }
 ```
+* Task# 40 Unfinished Loop - Bug Fixing #1 8 KUY
+```javascript
+function createArray(number){
+  let newArray = [];
+  for(let i = 1; i <= Number(number); i++){
+    newArray.push(i);
+  }
+  return newArray;
+}
+```
