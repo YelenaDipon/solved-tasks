@@ -358,3 +358,13 @@ function divisors(integer) {
   return array.length === 0 ? `${integer} is prime` : array
 };
 ```
+* Task# 39 Pre-FizzBuzz Workout #1 8 KUY
+```javascript
+function preFizz(n) {
+let result = [];
+for(let i = 1; i <= Number(n); i++){
+result.push(i);
+}
+return result;
+}
+```
