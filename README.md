@@ -378,3 +378,13 @@ function createArray(number){
   return newArray;
 }
 ```
+* Task# 41 Count by X 8 KUY
+```javascript
+function countBy(x, n) {
+  let result = [];
+for(let i = x; i <= n * x; i = i + x){
+result.push(i);
+}
+  return result;
+}
+```
