@@ -342,11 +342,19 @@ return sum;
 ```javascript
 let min = function(list){
     return Math.min(...list)
-}
-
+};
 let max = function(list){
     
     return Math.max(...list)
 }
 ```
-
+* Task# 38 Find the divisors! 7 KUY
+```javascript
+function divisors(integer) {
+  let array = [];
+  for (let i = 2; i < integer; i++) {
+    if (integer%i === 0) array.push(i)
+  }
+  return array.length === 0 ? `${integer} is prime` : array
+};
+```
