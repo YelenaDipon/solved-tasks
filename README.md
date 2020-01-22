@@ -439,3 +439,10 @@ function removeEveryOther(arr){
   return arr.filter((el, i) => i % 2 === 0);
 }
 ```
+* Task# 48 Well of Ideas - Easy Version 8 KUY
+```javascript
+function well(x){
+let good = x.filter(el=> el === 'good');
+return (good.length > 2) ? 'I smell a series!' : (good.length === 1 || good.length === 2) ? 'Publish!' : 'Fail!';
+}
+```
