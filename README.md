@@ -421,3 +421,9 @@ function find(a, e) {
     return i < 0 ? "Not found" : i;
 }
 ```
+* Task# 45 JavaScript Array Filter 7 KUY
+```javascript
+function getEvenNumbers(numbersArray){
+  return numbersArray.filter(el => el % 2 === 0);
+}
+```
