@@ -427,3 +427,9 @@ function getEvenNumbers(numbersArray){
   return numbersArray.filter(el => el % 2 === 0);
 }
 ```
+* Task# 46 Find numbers which are divisible by given number 8 KUY
+```javascript
+function divisibleBy(numbers, divisor){
+  return numbers.filter(el => el % divisor === 0);
+}
+```
