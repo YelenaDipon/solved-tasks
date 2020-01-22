@@ -408,3 +408,9 @@ function popElement(arr){
   return arr;
 }
 ```
+* Task# 43 No Loops 2 - You only need one 8 KUY
+```javascript
+function check(a, x) {
+  return a.includes(x);
+}
+```
