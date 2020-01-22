@@ -433,3 +433,9 @@ function divisibleBy(numbers, divisor){
   return numbers.filter(el => el % divisor === 0);
 }
 ```
+* Task# 47 Removing Elements 8 KUY
+```javascript
+function removeEveryOther(arr){
+  return arr.filter((el, i) => i % 2 === 0);
+}
+```
