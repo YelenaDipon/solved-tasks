@@ -414,3 +414,10 @@ function check(a, x) {
   return a.includes(x);
 }
 ```
+* Task# 44 Be Concise IV - Index of an element in an array 8 KUY
+```javascript
+function find(a, e) {
+    let i = a.indexOf(e);  
+    return i < 0 ? "Not found" : i;
+}
+```
