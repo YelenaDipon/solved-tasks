@@ -458,3 +458,9 @@ function countWins(winnerList1, country) {
   return count;
 }
 ```
+* Task# 50 filterEvenLengthWords 7 KUY
+```javascript
+function filterEvenLengthWords(words) {
+  return words.filter(el => el.length % 2 === 0);
+}
+```
