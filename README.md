@@ -464,3 +464,10 @@ function filterEvenLengthWords(words) {
   return words.filter(el => el.length % 2 === 0);
 }
 ```
+* Task# 51 Array.diff 6 KUY
+```javascript
+function array_diff(a, b) {
+   return a.filter( el => !b.includes(el));
+}
+```
+
