@@ -446,3 +446,15 @@ let good = x.filter(el=> el === 'good');
 return (good.length > 2) ? 'I smell a series!' : (good.length === 1 || good.length === 2) ? 'Publish!' : 'Fail!';
 }
 ```
+* Task# 49 Find how many times did a team from a given country win the Champions League? 7 KUY
+```javascript
+function countWins(winnerList1, country) {
+ let count = 0;
+  for(let i = 0; i < winnerList1.length; i++){
+    if(winnerList1[i].country === country){
+      count++
+    }
+  }
+  return count;
+}
+```
