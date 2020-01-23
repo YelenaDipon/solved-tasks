@@ -482,3 +482,7 @@ function unique(arr) {
   return arr.filter((el, i) => i === arr.indexOf(el));
 }
 ```
+* Task# 54 Santa's Naughty List 7 KUY
+```javascript
+const findChildren = (santasList, children) => [...new Set(children.filter(name => santasList.includes(name)).sort())]
+```
