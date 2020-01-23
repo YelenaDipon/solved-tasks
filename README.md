@@ -470,4 +470,11 @@ function array_diff(a, b) {
    return a.filter( el => !b.includes(el));
 }
 ```
+* Task# 52 Find Duplicates 7 KUY
+```javascript
+function duplicates(arr) {
+  return arr.filter((el,i) => i !== arr.indexOf(el) && i === arr.lastIndexOf(el))
+}
+```
+
 
