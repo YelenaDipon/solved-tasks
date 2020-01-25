@@ -486,3 +486,9 @@ function unique(arr) {
 ```javascript
 const findChildren = (santasList, children) => [...new Set(children.filter(name => santasList.includes(name)).sort())]
 ```
+* Task# 55 My head is at the wrong end! 8 KUY
+```javascript
+function fixTheMeerkat(arr) {
+  return arr.reverse();
+}
+```
