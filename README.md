@@ -506,5 +506,13 @@ function sumTwoSmallestNumbers(numbers) {
   return numbers[0] + numbers[1] 
 }
 ```
+* Task# 58 Sentence Smash 8 KUY
+```javascript
+function smash (words) {
+    "use strict";
+    return words.join(' ');
+};
+```
+
 
 
