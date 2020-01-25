@@ -492,3 +492,11 @@ function fixTheMeerkat(arr) {
   return arr.reverse();
 }
 ```
+* Task# 56 Two Oldest Ages 7 KUY
+```javascript
+function twoOldestAges(ages){
+   ages.sort((a,b) => b - a);
+   return [ages[1],ages[0]] 
+}
+```
+
