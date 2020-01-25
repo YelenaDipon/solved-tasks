@@ -499,4 +499,12 @@ function twoOldestAges(ages){
    return [ages[1],ages[0]] 
 }
 ```
+* Task# 57 Sum of two lowest positive integers 7 KUY
+```javascript
+function sumTwoSmallestNumbers(numbers) {  
+  numbers.sort((a,b) => b - a ).reverse();
+  return numbers[0] + numbers[1] 
+}
+```
+
 
