@@ -537,6 +537,12 @@ function all( arr, fun ){
   return arr.every(el=>fun(el)) 
 }
 ```
+* Task# 63 Grasshopper - Array Mean 8 KUY
+```javascript
+var findAverage = function (nums) {
+  return nums.reduce((a,b) => a + b) / nums.length
+}
+```
 
 
 
