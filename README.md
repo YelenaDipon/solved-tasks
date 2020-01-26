@@ -513,6 +513,13 @@ function smash (words) {
     return words.join(' ');
 };
 ```
+* Task# 59 String Templates - Bug Fixing #5 8 KUY
+```javascript
+function buildString(...template){
+  return (`I like ${template.join(', ')}` + "!");
+}
+```
+
 
 
 
