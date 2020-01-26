@@ -543,6 +543,11 @@ var findAverage = function (nums) {
   return nums.reduce((a,b) => a + b) / nums.length
 }
 ```
+* Task# 64 Beginner - Reduce but Grow 8 KUY
+```javascript
+function grow(x){return x.reduce((a,b)=> a * b)};
+```
+
 
 
 
