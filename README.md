@@ -519,6 +519,14 @@ function buildString(...template){
   return (`I like ${template.join(', ')}` + "!");
 }
 ```
+* Task# 60 CSV representation of array 8 KUY
+```javascript
+function toCsvText(array) {
+   return array.join('\n');
+}
+```
+
+
 
 
 
