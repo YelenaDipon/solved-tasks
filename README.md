@@ -525,6 +525,13 @@ function toCsvText(array) {
    return array.join('\n');
 }
 ```
+* Task# 61 Printing Array elements with Comma delimiters 8 KUY
+```javascript
+function printArray(array){
+  return array.join();
+}
+```
+
 
 
 
