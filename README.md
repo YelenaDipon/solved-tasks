@@ -531,6 +531,14 @@ function printArray(array){
   return array.join();
 }
 ```
+* Task# 62 Enumerable Magic #1 - True for All? 8 KUY
+```javascript
+function all( arr, fun ){
+  return arr.every(el=>fun(el)) 
+}
+```
+
+
 
 
 
