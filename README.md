@@ -561,6 +561,15 @@ function take(arr, n) {
   return arr.splice(0,n);
 }
 ```
+* Task# 67 Remove First and Last Character Part Two 8 KUY
+```javascript
+function array(arr){
+  arr = arr.split(',').slice(1,-1)
+  let result = arr.toString().replace(/,/g, ' ');
+  return (result === '') ? null : result;
+}
+```
+
 
 
 
