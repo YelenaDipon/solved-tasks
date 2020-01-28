@@ -547,7 +547,14 @@ var findAverage = function (nums) {
 ```javascript
 function grow(x){return x.reduce((a,b)=> a * b)};
 ```
-
+* Task# 65 SpeedCode #2 - Array Madness 8 KUY
+```javascript
+function arrayMadness(a,b) {
+  let firstArray = a.reduce((c,d)=> c + d ** 2,1)
+  let secondArray = b.reduce((e,f)=> e + f ** 3,1)
+return firstArray >= secondArray
+}
+```
 
 
 
