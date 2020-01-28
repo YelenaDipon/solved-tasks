@@ -555,6 +555,13 @@ function arrayMadness(a,b) {
 return firstArray >= secondArray
 }
 ```
+* Task# 66 Enumerable Magic #25 - Take the First N Elements 8 KUY
+```javascript
+function take(arr, n) {
+  return arr.splice(0,n);
+}
+```
+
 
 
 
