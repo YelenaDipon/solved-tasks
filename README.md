@@ -581,6 +581,12 @@ var TempleStrings = function(obj, feature) {
   return `${obj} are ${feature}`;
 }
 ```
+* Task# 70 Grasshopper - Combine strings 8 KUY
+```javascript
+function combineNames(a,b){
+    return a +" "+ b;
+}
+```
 
 
 
