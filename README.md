@@ -594,6 +594,13 @@ function switcher(x){
   return x.map((el, i) => el = alp[el]).join('');
 }
 ```
+* Task# 72 get character from ASCII Value 8 KUY
+```javascript
+function getChar(x) {
+  return String.fromCharCode(x);
+}
+```
+
 
 
 
