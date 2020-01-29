@@ -575,6 +575,13 @@ function greet(name){
   return name === "Johnny" ? "Hello, my love!" : "Hello, " + name + "!";
 }
 ```
+* Task# 69 Template Strings 8 KUY
+```javascript
+var TempleStrings = function(obj, feature) {
+  return `${obj} are ${feature}`;
+}
+```
+
 
 
 
