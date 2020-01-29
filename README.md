@@ -587,6 +587,14 @@ function combineNames(a,b){
     return a +" "+ b;
 }
 ```
+* Task# 71 Numbers to Letters 7 KUY
+```javascript
+function switcher(x){
+  const alp = "0zyxwvutsrqponmlkjihgfedcba!? ";
+  return x.map((el, i) => el = alp[el]).join('');
+}
+```
+
 
 
 
