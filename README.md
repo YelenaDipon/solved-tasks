@@ -600,6 +600,14 @@ function getChar(x) {
   return String.fromCharCode(x);
 }
 ```
+* Task# 73 Regex validate PIN code 7 KUY
+```javascript
+function validatePIN (pin) {
+if(!pin) return false;
+  let numbersLength = pin.match(/[0-9]/g).length;
+return numbersLength === pin.length && (numbersLength === 4 || numbersLength === 6);
+}
+```
 
 
 
