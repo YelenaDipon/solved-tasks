@@ -608,6 +608,17 @@ if(!pin) return false;
 return numbersLength === pin.length && (numbersLength === 4 || numbersLength === 6);
 }
 ```
+* Task# 74 Triple Trouble 8 KUY
+```javascript
+function tripleTrouble(one, two, three){
+  let result = '';
+  for (let i = 0; i < one.length; i++) {
+    result += (one[i] + two[i] + three[i]);
+  }
+  return result;
+ }
+```
+
 
 
 
