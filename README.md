@@ -624,16 +624,19 @@ function lowercaseCount(str){
   return !str.match(/[a-z]/g) ? 0 : str.match(/[a-z]/g).length;
 }
 ```
-* Task# 76 Triple Trouble 8 KUY
+* Task# 76 Spacify 7 KUY
 ```javascript
-function tripleTrouble(one, two, three){
-  let result = '';
-    for (let i = 0; i < one.length; i++) {
-    result += (one[i] + two[i] + three[i]);
-  }
-  return result;
- }
+function spacify(str) {
+let result = '';
+let i = 0;
+do{result += str[i] + ' ';
+i++;
+}
+while(i < str.length);
+return result.trim();
+}
 ```
+
 
 
 
