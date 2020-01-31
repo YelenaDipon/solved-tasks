@@ -618,6 +618,13 @@ function tripleTrouble(one, two, three){
   return result;
  }
 ```
+* Task# 75 Regex count lowercase letters 8 KUY
+```javascript
+function lowercaseCount(str){
+  return !str.match(/[a-z]/g) ? 0 : str.match(/[a-z]/g).length;
+}
+```
+
 
 
 
