@@ -636,6 +636,18 @@ while(i < str.length);
 return result.trim();
 }
 ```
+* Task# 77 Is it a palindrome? 8 KUY
+```javascript
+function isPalindrome(x) {
+x = x.toLowerCase();
+let reversed = '';
+for(let i = x.length-1 ; i >= 0 ; i--){
+reversed += x[i];
+}
+return reversed === x;
+}
+```
+
 
 
 
