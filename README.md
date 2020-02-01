@@ -659,6 +659,13 @@ let array = [];
 return array;
 }
 ```
+* Task# 79 The Wide-Mouthed frog! 8 KUY
+```javascript
+function mouthSize(animal) {
+  return animal.toLowerCase() === 'alligator' ? 'small' : 'wide';
+}
+```
+
 
 
 
