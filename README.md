@@ -665,6 +665,19 @@ function mouthSize(animal) {
   return animal.toLowerCase() === 'alligator' ? 'small' : 'wide';
 }
 ```
+* Task# 80 Find the capitals 7 KUY
+```javascript
+var capitals = function (word) {
+  const result = [];
+  for (let i = 0; i < word.length; i++){
+    if (word[i] === word[i].toUpperCase()){
+      result.push(i);
+    }  
+  }
+  return result;
+};
+```
+
 
 
 
