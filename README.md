@@ -677,6 +677,11 @@ var capitals = function (word) {
   return result;
 };
 ```
+* Task# 81 MakeUpperCase 8 KUY
+```javascript
+function makeUpperCase(str) {return str.toUpperCase();}
+```
+
 
 
 
