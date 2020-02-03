@@ -690,6 +690,13 @@ function testit(s){
   return  s.split(' ').map((el)=> el.slice(0,-1) + el[el.length -1].toUpperCase()).join(' ');
 }
 ```
+* Task# 83 repeatIt 8 KUY
+```javascript
+var repeatIt = function(str, n) {
+  return typeof str === "string" ? str.repeat(n) : "Not a string";
+}
+```
+
 
 
 
