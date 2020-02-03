@@ -681,6 +681,16 @@ var capitals = function (word) {
 ```javascript
 function makeUpperCase(str) {return str.toUpperCase();}
 ```
+* Task# 82 Thinking & Testing : Something capitalized 7 KUY
+```javascript
+function testit(s){
+  if (!s){
+    return s;
+  }
+  return  s.split(' ').map((el)=> el.slice(0,-1) + el[el.length -1].toUpperCase()).join(' ');
+}
+```
+
 
 
 
