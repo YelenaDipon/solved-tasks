@@ -728,6 +728,13 @@ function validateCode (code) {
   return code.startsWith('1') || code.startsWith('2') || code.startsWith('3');
 }
 ```
+* Task# 88 String ends with? 7 KUY
+```javascript
+function solution(str, ending){
+  return str.endsWith(ending);
+}
+```
+
 
 
 
