@@ -714,6 +714,14 @@ function spEng(sentence){
 return sentence.search(/english/i)>=0
 }
 ```
+* Task# 86 Find the position! 8 KUY
+```javascript
+function position(letter){
+  let alphabet = ' abcdefghijklmnopqrstuvwxyz';
+  return `Position of alphabet: ${alphabet.indexOf(letter)}`;
+}
+```
+
 
 
 
