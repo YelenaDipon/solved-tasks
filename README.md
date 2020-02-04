@@ -721,6 +721,14 @@ function position(letter){
   return `Position of alphabet: ${alphabet.indexOf(letter)}`;
 }
 ```
+* Task# 87 validate code with simple regex 8 KUY
+```javascript
+function validateCode (code) {
+  code = code.toString();
+  return code.startsWith('1') || code.startsWith('2') || code.startsWith('3');
+}
+```
+
 
 
 
