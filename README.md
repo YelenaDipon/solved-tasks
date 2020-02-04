@@ -708,6 +708,13 @@ function dontGiveMeFive(start, end) {
     return count;
 }
 ```
+* Task# 85 Do you speak "English"? 8 KUY
+```javascript
+function spEng(sentence){
+return sentence.search(/english/i)>=0
+}
+```
+
 
 
 
