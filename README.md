@@ -742,6 +742,18 @@ function tailSwap(arr) {
   return [arr[0].slice(0,arr[0].indexOf(':')) + secondStr, arr[1].slice(0,arr[1].indexOf(':')) + firstStr];
 }
 ```
+* Task# 90 Credit Card Mask 7 KUY
+```javascript
+function maskify(cc) {
+    let result = '#';
+  if(cc.length < 5){
+    return cc
+  }
+  result += result.repeat(cc.length-5)
+return result + cc.slice(-4)
+}
+```
+
 
 
 
