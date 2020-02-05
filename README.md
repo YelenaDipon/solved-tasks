@@ -753,6 +753,13 @@ function maskify(cc) {
 return result + cc.slice(-4)
 }
 ```
+* Task# 91 Vowel remover 8 KUY
+```javascript
+function shortcut(string){
+  return string.replace(/[aeiou]/gi, '');
+}
+```
+
 
 
 
