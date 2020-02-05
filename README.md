@@ -734,6 +734,15 @@ function solution(str, ending){
   return str.endsWith(ending);
 }
 ```
+* Task# 89 Tail Swap 7 KUY
+```javascript
+function tailSwap(arr) {
+  let firstStr =  arr[0].slice(arr[0].indexOf(':'));
+  let secondStr = arr[1].slice(arr[1].indexOf(':'));
+  return [arr[0].slice(0,arr[0].indexOf(':')) + secondStr, arr[1].slice(0,arr[1].indexOf(':')) + firstStr];
+}
+```
+
 
 
 
