@@ -771,6 +771,13 @@ function getNumberFromString(s) {
   return Number( s.match(/[0-9]/g).join(""))
 }
 ```
+* Task# 94 FIXME: Replace all dots 8 KUY
+```javascript
+var replaceDots = function(str) {
+  return str.replace(/[.]/g, '-');
+}
+```
+
 
 
 
