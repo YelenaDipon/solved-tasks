@@ -759,6 +759,12 @@ function shortcut(string){
   return string.replace(/[aeiou]/gi, '');
 }
 ```
+* Task# 92 DNA to RNA Conversion 8 KUY
+```javascript
+function DNAtoRNA(dna) {
+  return dna.replace(/[T]/gi, 'U');
+}
+```
 
 
 
