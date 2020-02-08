@@ -765,6 +765,13 @@ function DNAtoRNA(dna) {
   return dna.replace(/[T]/gi, 'U');
 }
 ```
+* Task# 93 Get number from string 8 KUY
+```javascript
+function getNumberFromString(s) {
+  return Number( s.match(/[0-9]/g).join(""))
+}
+```
+
 
 
 
