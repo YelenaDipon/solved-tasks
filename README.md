@@ -797,6 +797,14 @@ function descendingOrder(n){
   return parseInt(String(n).split('').sort().reverse().join(''))
 }
 ```
+* Task# 98 Highest and Lowest 7 KUY
+```javascript
+function highAndLow(numbers){
+  numbers = numbers.split(' ').sort( (a, b) => b - a);
+  return numbers[0] + ' ' + numbers[numbers.length - 1];
+}
+```
+
 
 
 
