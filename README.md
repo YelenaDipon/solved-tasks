@@ -785,6 +785,13 @@ let i = s.lastIndexOf(letter[letter.length - 1]);
 return s.slice(0,i + 1);
 }
 ```
+* Task# 96 Reversed Words 8 KUY
+```javascript
+function reverseWords(str){
+  return str.split(' ').reverse().join(' ');
+}
+```
+
 
 
 
