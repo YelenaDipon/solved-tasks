@@ -777,6 +777,15 @@ var replaceDots = function(str) {
   return str.replace(/[.]/g, '-');
 }
 ```
+* Task# 95 Exclamation marks series #2: Remove all exclamation marks from the end of sentence 8 KUY
+```javascript
+function remove(s){
+let letter = s.match(/[a-z]/gi);
+let i = s.lastIndexOf(letter[letter.length - 1]);
+return s.slice(0,i + 1);
+}
+```
+
 
 
 
