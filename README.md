@@ -791,6 +791,13 @@ function reverseWords(str){
   return str.split(' ').reverse().join(' ');
 }
 ```
+* Task# 97 Descending Order 7 KUY
+```javascript
+function descendingOrder(n){
+  return parseInt(String(n).split('').sort().reverse().join(''))
+}
+```
+
 
 
 
