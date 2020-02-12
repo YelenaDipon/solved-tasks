@@ -804,6 +804,13 @@ function highAndLow(numbers){
   return numbers[0] + ' ' + numbers[numbers.length - 1];
 }
 ```
+* Task# 99 Name Shuffler 8 KUY
+```javascript
+function nameShuffler(str){
+  return str.split(' ').reverse().join(" ");
+}
+```
+
 
 
 
