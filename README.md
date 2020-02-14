@@ -825,6 +825,13 @@ function findLongest(str) {
   return longest;
 };
 ```
+* Task# 101 Reversing Words in a String 8 KUY
+```javascript
+function reverse(string){
+  return string.split(' ').reverse().join(' ');
+}
+```
+
 
 
 
