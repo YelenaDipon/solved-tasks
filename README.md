@@ -845,6 +845,20 @@ let seconds = 0;
 return hours * 3600 + minutes * 60 + seconds <= 24 * 3600;
 }
 ```
+* Task# 103 Every possible sum of two digits 7 KUY
+```javascript
+function digits(n){
+    n = n.toString();
+    let result = [];
+    for(let i = 0; i < n.length; i++){
+        for(let j = i + 1; j < n.length; j++){
+            result.push(Number(n[i]) + Number(n[j]));
+        }
+    }
+    return result;
+}
+```
+
 
 
 
