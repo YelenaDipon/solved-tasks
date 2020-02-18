@@ -831,6 +831,22 @@ function reverse(string){
   return string.split(' ').reverse().join(' ');
 }
 ```
+* Task# 102 Can Santa save Christmas? 7 KUY
+```javascript
+function determineTime(durations){
+let hours = 0;
+let minutes = 0;
+let seconds = 0;
+  for(let i = 0 ; i < durations.length ; i++){
+    hours += +(durations[i].split(':')[0]);
+    minutes += +(durations[i].split(':')[1]);
+    seconds += +(durations[i].split(':')[2]);
+  }
+return hours * 3600 + minutes * 60 + seconds <= 24 * 3600;
+}
+```
+
+
 
 
 
