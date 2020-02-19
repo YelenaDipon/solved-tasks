@@ -903,6 +903,13 @@ function arithmetic(a, b, operator){
       return a / b};
 }
 ```
+* Task# 107 Beginner Series #2 Clock 8 KUY
+```javascript
+function past(h, m, s){
+  return h * 3600000 + m * 60000  + s * 1000;
+}
+```
+
 
 
 
