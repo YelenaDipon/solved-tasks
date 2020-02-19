@@ -884,6 +884,13 @@ default : 'Welcome',
 return (!dataBase[language]) ? dataBase.default : dataBase[language] ;
 }
 ```
+* Task# 105 Duck Duck Goose 8 KUY
+```javascript
+function duckDuckGoose(players, goose) {
+  return goose ? players[(goose - 1) % players.length].name : '';
+}
+```
+
 
 
 
