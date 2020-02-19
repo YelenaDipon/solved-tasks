@@ -890,6 +890,20 @@ function duckDuckGoose(players, goose) {
   return goose ? players[(goose - 1) % players.length].name : '';
 }
 ```
+* Task# 106 Make a function that does arithmetic! 7 KUY
+```javascript
+function arithmetic(a, b, operator){
+  if (operator === "add") {
+      return a + b;
+      } else if (operator === "subtract") {
+      return a - b;
+      }  else if (operator === "multiply") {
+      return a * b;
+      }  else {
+      return a / b};
+}
+```
+
 
 
 
