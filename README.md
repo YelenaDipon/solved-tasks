@@ -947,6 +947,16 @@ result += dict[string[i].toUpperCase()] + ' ';
 return result.trim();
 };
 ```
+* Task# 109 Check three and two 7 KUY
+```javascript
+function checkThreeAndTwo(array) {
+  let a = 0;
+  let b = 0;
+  let c = 0;
+  array.map((el)=> (el === 'a') ? a++ : (el === 'b') ? b++ : c++);
+return (a === 3 && b === 2) || (a === 2 && b === 3) || (a === 3 && c === 2) || (c === 3 && a === 2) || (c === 3 && b === 2) || (c === 2 && b === 3)
+}
+```
 
 
 
