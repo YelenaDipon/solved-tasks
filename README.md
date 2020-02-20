@@ -909,6 +909,45 @@ function past(h, m, s){
   return h * 3600000 + m * 60000  + s * 1000;
 }
 ```
+* Task# 108 makeBackronym 7 KUY
+```javascript
+var dict = {
+'A': "awesome",
+'B': 'beautiful',
+'C': 'confident',
+'D': 'disturbing',
+'E': 'eager',
+'F': 'fantastic',
+'G': 'gregarious',
+'H': 'hippy',
+'I': 'ingestable',
+'J': 'joke',
+'K': 'klingon',
+'L': 'literal',
+'M': 'mustache',
+'N': 'newtonian',
+'O': 'oscillating',
+'P': 'perfect',
+'Q': 'queen',
+'R': 'rant',
+'S': 'stylish',
+'T': 'turn',
+'U': 'underlying',
+'V': 'volcano',
+'W': 'weird',
+'X': 'xylophone',
+'Y': 'yogic',
+'Z': 'zero'
+};
+var makeBackronym = function(string){
+let result = '';
+for(let i = 0; i < string.length; i++){
+result += dict[string[i].toUpperCase()] + ' ';
+}
+return result.trim();
+};
+```
+
 
 
 
