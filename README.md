@@ -957,6 +957,13 @@ function checkThreeAndTwo(array) {
 return (a === 3 && b === 2) || (a === 2 && b === 3) || (a === 3 && c === 2) || (c === 3 && a === 2) || (c === 3 && b === 2) || (c === 2 && b === 3)
 }
 ```
+* Task# 110 Add property to every object in array 7 KUY
+```javascript
+for(let i = 0; i < questions.length; i++) {
+  questions[i].usersAnswer = null;
+}
+```
+
 
 
 
