@@ -963,6 +963,17 @@ for(let i = 0; i < questions.length; i++) {
   questions[i].usersAnswer = null;
 }
 ```
+* Task# 111 Numbers to Objects 7 KUY
+```javascript
+function numObj(s){
+  let result = []; 
+  for(let i = 0; i < s.length; i++){
+    result.push({[s[i]] : String.fromCharCode(s[i])})
+  }
+  return result;
+};
+```
+
 
 
 
