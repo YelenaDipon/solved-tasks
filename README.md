@@ -973,6 +973,16 @@ function numObj(s){
   return result;
 };
 ```
+* Task# 112 Coding Meetup #5 - Higher-Order Functions Series - Prepare the count of languages 7 KUY
+```javascript
+function countLanguages(list) {
+  let result = {}; 
+  for(let i = 0; i < list.length; i++){
+    result[list[i].language] === undefined ? 
+      result[list[i].language] = 1: result[list[i].language]++}
+return result;
+}
+```
 
 
 
