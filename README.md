@@ -995,6 +995,20 @@ for(let key in alpha){
   return {[name] : count}
 }
 ```
+* Task# 114 The Office I - Outed 7 KUY
+```javascript
+function outed(meet, boss){
+let count = 0; let array = []; let bos;
+ for(let key in meet){
+ (boss === key) ? bos = meet[key] : key;
+    array.push(key)
+   count += meet[key] ;
+ }
+  count = count + bos
+  return (count / array.length <= 5) ? 'Get Out Now!' : 'Nice Work Champ!'
+}
+```
+
 
 
 
