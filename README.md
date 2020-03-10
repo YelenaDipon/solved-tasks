@@ -983,6 +983,18 @@ function countLanguages(list) {
 return result;
 }
 ```
+* Task# 113 What is my name score? #1 7 KUY
+```javascript
+function nameScore(name){
+let count = 0 ;
+for(let key in alpha){
+  for(let i = 0; i < name.length; i++){
+  (key.includes(name.toUpperCase()[i])) ? count+=alpha[key] : 0;
+}
+}
+  return {[name] : count}
+}
+```
 
 
 
