@@ -1008,6 +1008,31 @@ let count = 0; let array = []; let bos;
   return (count / array.length <= 5) ? 'Get Out Now!' : 'Nice Work Champ!'
 }
 ```
+* Task# 115 Permute a Palindrome 6 KUY
+```javascript
+function permuteAPalindrome (input) { 
+  let array = input.split('');
+  let spec = [...new Set (input)];
+  const countArr = []; 
+  for(let i = 0; i < spec.length; i++){
+  let count = 0; 
+    for(let j = 0; j < array.length; j++){
+            if(array[j] === spec[i]) count++;
+      console.log(spec[i]);
+    }
+    if(count % 2 !== 0) countArr.push(1);
+  }
+  return countArr.length <= 1;
+}
+```
+OR
+```javascript
+function permuteAPalindrome ([...input], odd = 0) { 
+  new Set(input).forEach(a => input.filter(b => b == a).length % 2 ? odd++ : 0)
+  return odd < 2;
+}
+```
+
 
 
 
