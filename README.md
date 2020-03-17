@@ -1032,7 +1032,27 @@ function permuteAPalindrome ([...input], odd = 0) {
   return odd < 2;
 }
 ```
+* Task# 116 Most valuable character 7 KUY
+```javascript
+function solve(st) {
+ let  str = st.split('');
+    let b = [0,''];  
+    let dif = 0;
+  for(let i = 0; i < st.length; i++){
+ dif = st.lastIndexOf(st[i]) - st.indexOf(st[i]);
+    if(st.lastIndexOf(st[i]) === st.indexOf(st[i])) { dif = 1}
+    if(dif > b[0]){
+      b[0] = dif; 
+      b[1] = st[i]; 
+    } else if (dif === b[0] && str[i] < b[1]){ 
+          b[1] = st[i]; 
+        }
+ 
+  }
+    return b[1];
+}
 
+```
 
 
 
