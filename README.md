@@ -1053,6 +1053,20 @@ function solve(st) {
 }
 
 ```
+* Task# 117 How many days are we represented in a foreign country? 7 KUY
+```javascript
+function daysRepresented(trips){
+let result = [];
+  for (let i = 0; i < trips.length; i++){
+    for (let j = trips[i][0]; j <= trips[i][1]; j++){
+      if (result.indexOf(j) === -1){
+        result.push(j);
+      }
+    }
+  }
+  return result.length;
+}
+```
 
 
 
