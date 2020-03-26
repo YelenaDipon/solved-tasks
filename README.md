@@ -1067,6 +1067,30 @@ let result = [];
   return result.length;
 }
 ```
+* Task# 118 The Office II - Boredom Score 7 KUY
+```javascript
+let score ={
+  'accounts' : 1,
+'finance': 2,
+'canteen' : 10,
+'regulation' : 3,
+'trading': 6,
+'change' : 6,
+'IS' : 8,
+'retail' : 5,
+'cleaning' : 4,
+'pissing about' : 25,
+}
+function boredom(staff){
+ let count = 0;
+for(let key in staff){
+  count += score[staff[key]]
+}
+return (count <=80) ? 'kill me now' :
+count < 100 & count > 80 ? 'i can handle this' :
+'party time!!';
+}
+```
 
 
 
