@@ -1080,7 +1080,7 @@ let score ={
 'retail' : 5,
 'cleaning' : 4,
 'pissing about' : 25,
-}
+};
 function boredom(staff){
  let count = 0;
 for(let key in staff){
@@ -1091,6 +1091,15 @@ count < 100 & count > 80 ? 'i can handle this' :
 'party time!!';
 }
 ```
+* Task# 119 No oddities here 7 KUY
+```javascript
+function noOdds( values ){
+let result = [];
+values.filter((el)=> el % 2 === 0 ? result.push(el) : 0)
+return result;
+}
+```
+
 
 
 
