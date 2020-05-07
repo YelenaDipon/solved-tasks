@@ -1099,6 +1099,13 @@ values.filter((el)=> el % 2 === 0 ? result.push(el) : 0)
 return result;
 }
 ```
+* Task# 120 Area or Perimeter 8 KUY
+```javascript
+const areaOrPerimeter = function(l , w) {
+  return l === w ? l * w : (l * 2) + (w * 2);
+}
+```
+
 
 
 
