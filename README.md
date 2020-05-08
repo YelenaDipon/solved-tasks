@@ -1105,6 +1105,13 @@ const areaOrPerimeter = function(l , w) {
   return l === w ? l * w : (l * 2) + (w * 2);
 }
 ```
+* Task# 121 Find the Difference in Age between Oldest and Youngest Family Members 8 KUY 
+```javascript
+function differenceInAges(ages){
+  let sortedAges = ages.sort((a,b)=>a-b);
+  return [sortedAges[0],sortedAges[sortedAges.length-1],sortedAges[sortedAges.length-1]-sortedAges[0]];
+}
+```
 
 
 
