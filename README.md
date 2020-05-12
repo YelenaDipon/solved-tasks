@@ -1112,6 +1112,13 @@ function differenceInAges(ages){
   return [sortedAges[0],sortedAges[sortedAges.length-1],sortedAges[sortedAges.length-1]-sortedAges[0]];
 }
 ```
+* Task# 122 Maximum Multiple 7 KUY 
+```javascript
+function maxMultiple(divisor, bound) {
+  return Math.floor(bound / divisor) * divisor;
+}
+```
+
 
 
 
